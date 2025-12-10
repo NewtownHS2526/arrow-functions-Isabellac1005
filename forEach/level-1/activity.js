@@ -118,10 +118,10 @@ Write your solution using:
 
 const exercise1Array = [1, 2, 3, 4, 5];
 
-// Your solution here (one-line arrow function):
+// Your solution here (one-line arrow function): 
 // exercise1Array.forEach(
 
-// Your solution here (regular arrow function):
+// Your solution here (regular arrow function): 
 // exercise1Array.forEach((
 
 // Expected output: 2, 4, 6, 8, 10 (each on a new line)

@@ -30,10 +30,12 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+// const exercise1Result1 = const exercise1Array.reduce((total, item) => total + item.price * item.quantity, 0);
 
 // Your solution here (regular arrow function):
-// const exercise1Result2 = 
+// const exercise1Result2 = const exercise1Array.reduce((total, item) => {
+//   return total + item.price * item.quantity;
+// }, 0);
 
 // Uncomment to test:
 // console.log("Exercise 1 - One-line:", exercise1Result1);
@@ -56,10 +58,13 @@ Write your solution using:
 const exercise2Array = ["apple", "banana", "cherry", "date"];
 
 // Your solution here (one-line arrow function):
-// const exercise2Result1 = 
+// const exercise2Result1 = const exercise2Array.reduce((acc, fruit) => ({ ...acc, [fruit]: fruit.length }), {});
 
 // Your solution here (regular arrow function):
-// const exercise2Result2 = 
+// const exercise2Result2 = const exercise2Array.reduce((acc, fruit) => {
+//   acc[fruit] = fruit.length;
+//   return acc;
+// }, {});
 
 // Uncomment to test:
 // console.log("Exercise 2 - One-line:", exercise2Result1);
@@ -80,10 +85,16 @@ Write your solution using:
 const exercise3Array = [5, 10, 15, 20, 25];
 
 // Your solution here (one-line arrow function):
-// const exercise3Result1 = 
+// const exercise3Result1 = connst exercise3Array.reduce((acc, num, _, arr) => acc + num / arr.length, 0);
 
 // Your solution here (regular arrow function):
-// const exercise3Result2 = 
+// const exercise3Result2 = const exercise3Array.reduce((acc, num, _, arr) => {
+//   acc += num;
+//   if (_ === arr.length - 1) {
+//     return acc / arr.length;
+//   }
+//   return acc;
+// }, 0);
 
 // Uncomment to test:
 // console.log("Exercise 3 - One-line:", exercise3Result1);
@@ -116,10 +127,16 @@ const exercise4Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise4Result1 = 
+// const exercise4Result1 = const exercise4Array.reduce((max, person) => (person.score > max.score ? person : max));
 
 // Your solution here (regular arrow function):
-// const exercise4Result2 = 
+// const exercise4Result2 = const exercise4Array.reduce((max, person) => {
+//   if (person.score > max.score) {
+//     return person;
+//   } else {
+//     return max;
+//   }
+// });
 
 // Uncomment to test:
 // console.log("Exercise 4 - One-line:", exercise4Result1);
@@ -143,10 +160,17 @@ Write your solution using:
 const exercise5Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // Your solution here (one-line arrow function):
-// const exercise5Result1 = 
+// const exercise5Result1 = const exercise5Array.reduce((acc, num) => (num % 2 === 0 ? { ...acc, even: [...acc.even, num] } : { ...acc, odd: [...acc.odd, num] }), { even: [], odd: [] });
 
 // Your solution here (regular arrow function):
-// const exercise5Result2 = 
+// const exercise5Result2 = const exercise5Array.reduce((acc, num) => {
+//   if (num % 2 === 0) {
+//     acc.even.push(num);
+//   } else {
+//     acc.odd.push(num);
+//   }
+//   return acc;
+// }, { even: [], odd: [] });
 
 // Uncomment to test:
 // console.log("Exercise 5 - One-line:", exercise5Result1);

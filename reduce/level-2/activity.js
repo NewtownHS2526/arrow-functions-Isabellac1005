@@ -22,10 +22,11 @@ Write your solution using:
 const exercise1Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+// const exercise1Result1 = console.log("Exercise 1 - One-line:", exercise1Result1);
+
 
 // Your solution here (regular arrow function):
-// const exercise1Result2 = 
+// const exercise1Result2 = const console.log("Exercise 1 - Regular:", exercise1Result2);
 
 // Uncomment to test:
 // console.log("Exercise 1 - One-line:", exercise1Result1);
@@ -81,10 +82,12 @@ Write your solution using:
 const exercise3Array = ["hello", "world", "javascript"];
 
 // Your solution here (one-line arrow function):
-// const exercise3Result1 = 
+// const exercise3Result1 = console.log("Exercise 3 - One-line:", exercise3Result1);
 
 // Your solution here (regular arrow function):
-// const exercise3Result2 = 
+// const exercise3Result2 = console.log("Exercise 3 - Regular:", exercise3Result2);
+
+
 
 // Uncomment to test:
 // console.log("Exercise 3 - One-line:", exercise3Result1);
@@ -104,10 +107,11 @@ Write your solution using:
 const exercise4Array = [12, 45, 8, 23, 56, 9];
 
 // Your solution here (one-line arrow function):
-// const exercise4Result1 = 
+// const exercise4Result1 = console.log("Exercise 4 - One-line:", exercise4Result1);
+
 
 // Your solution here (regular arrow function):
-// const exercise4Result2 = 
+// const exercise4Result2 = console.log("Exercise 4 - Regular:", exercise4Result2);
 
 // Uncomment to test:
 // console.log("Exercise 4 - One-line:", exercise4Result1);
@@ -128,10 +132,10 @@ Write your solution using:
 const exercise5Array = [1, 2, 3, 4, 5];
 
 // Your solution here (one-line arrow function):
-// const exercise5Result1 = 
+// const exercise5Result1 = console.log("Exercise 5 - One-line:", exercise5Result1);
 
 // Your solution here (regular arrow function):
-// const exercise5Result2 = 
+// const exercise5Result2 = constconsole.log("Exercise 5-Regular:", exercise5Result2);
 
 // Uncomment to test:
 // console.log("Exercise 5 - One-line:", exercise5Result1);
