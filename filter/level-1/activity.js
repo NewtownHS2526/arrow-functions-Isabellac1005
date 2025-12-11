@@ -39,6 +39,7 @@ SYNTAX EXAMPLES
 // const newArray = array.filter(element => condition);
 
 // Regular Arrow Function Style
+
 // const newArray = array.filter((element) => {
 //   return condition;
 // });
@@ -84,7 +85,8 @@ EXAMPLE 3: Filtering Numbers Greater Than a Value
 const numbers2 = [10, 25, 5, 30, 15, 40];
 
 // One-line arrow function
-const bigNumbers1 = numbers2.filter(n => n > 20);
+o+
++nst bigNumbers1 = numbers2.filter(n => n > 20);
 console.log("Example 3 - One-line:", bigNumbers1); // [25, 30, 40]
 
 // Regular arrow function
@@ -130,7 +132,8 @@ Given the array ["apple", "banana", "kiwi", "orange", "grape"], use filter()
 to create a new array with only the fruits that have 5 or more letters.
 
 Write your solution using:
-- One-line arrow function
+-
+ne-line arrow function
 - Regular arrow function
 */
 
