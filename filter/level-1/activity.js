@@ -85,8 +85,7 @@ EXAMPLE 3: Filtering Numbers Greater Than a Value
 const numbers2 = [10, 25, 5, 30, 15, 40];
 
 // One-line arrow function
-o+
-+nst bigNumbers1 = numbers2.filter(n => n > 20);
+const bigNumbers1 = numbers2.filter(n => n > 20);
 console.log("Example 3 - One-line:", bigNumbers1); // [25, 30, 40]
 
 // Regular arrow function
