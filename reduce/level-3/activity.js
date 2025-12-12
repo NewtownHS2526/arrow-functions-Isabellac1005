@@ -142,6 +142,7 @@ const exercise4Array = [
 // console.log("Exercise 4 - One-line:", exercise4Result1);
 // console.log("Exercise 4 - Regular:", exercise4Result2);
 // Expected: { name: "Diana", score: 95 }
+{name: "Diana", score; 95}
 
 /*
 EXERCISE 5
