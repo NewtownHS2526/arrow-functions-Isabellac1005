@@ -32,12 +32,12 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 =  const exercise1Result1 = exercise1Array.filter(item => item.inStock);
+const exercise1Result1 =   exercise1Result1 = exercise1Array.filter(item => item.inStock);
 
 // Your solution here (regular arrow function):
-// const exercise1Result2 = const exercise1Result2 = exercise1Array.filter((item) => {
-//   return item.inStock;
-// });
+const exercise1Result2 = exercise1Result2 = exercise1Array.filter((item) => {
+  return item.inStock;
+});``
 
 // Uncomment to test:
 // console.log("Exercise 1 - One-line:", exercise1Result1);
@@ -73,9 +73,9 @@ const exercise2Array = [
 // const exercise2Result1 = const exercise2Result1 = exercise2Array.filter(person => person.city === "New York");
 
 // Your solution here (regular arrow function):
-// const exercise2Result2 = const exercise2Result2 = exercise2Array.filter((person) => {
-//   return person.city === "New York";
-// });
+const exercise2Result2 =  exercise2Result2 = exercise2Array.filter((person) => {
+  return person.city === "New York";
+});
 
 // Uncomment to test:
 // console.log("Exercise 2 - One-line:", exercise2Result1);
@@ -99,9 +99,9 @@ const exercise3Array = [100, 250, 75, 500, 120, 300, 80];
 // const exercise3Result1 = const exercise3Result1 = exercise3Array.filter(num => num % 25 === 0);
 
 // Your solution here (regular arrow function):
-// const exercise3Result2 = const exercise3Result2 = exercise3Array.filter((num) => {
-//   return num % 25 === 0;
-// });
+const exercise3Result2 =  exercise3Result2 = exercise3Array.filter((num) => {
+  return num % 25 === 0;
+});
 
 // Uncomment to test:
 // console.log("Exercise 3 - One-line:", exercise3Result1);
@@ -162,12 +162,12 @@ Write your solution using:
 const exercise5Array = ["hello", "world", "javascript", "coding", "fun"];
 
 // Your solution here (one-line arrow function):
-// const exercise5Result1 = const exercise5Result1 = exercise5Array.filter(word => word.length % 2 !== 0);
+const exercise5Result1 =  exercise5Result1 = exercise5Array.filter(word => word.length % 2 !== 0);
 
 // Your solution here (regular arrow function):
-// const exercise5Result2 = const exercise5Result2 = exercise5Array.filter((word) => {
-//   return word.length % 2 !== 0;
-// });
+const exercise5Result2 =  exercise5Result2 = exercise5Array.filter((word) => {
+  return word.length % 2 !== 0;
+});
 
 // Uncomment to test:
 // console.log("Exercise 5 - One-line:", exercise5Result1);
